@@ -59,7 +59,7 @@ def patch(text):
         text=text.replace(source,target)
     # Root-relative static assets need the project prefix; route strings remain router-relative.
     text=text.replace('/airo-media.json', BASE+'/airo-media.json')
-    text=re.sub(r'(?<=["\x27`(])/(airo-assets/|images/|assets/|favicon)',BASE+r'/\1',text)
+    text=re.sub(r'(?<=["\x27`(\s])/(airo-assets/|images/|assets/|favicon)',BASE+r'/\1',text)
     text=text.replace('https://feuchtecheck.at/airo-assets/',ORIGIN+'/airo-assets/')
     return text
 for path,(data,mime) in downloads.items():
