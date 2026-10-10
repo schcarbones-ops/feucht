@@ -1,6 +1,15 @@
 // GitHub Pages cannot run the original GoDaddy API. Set a CORS-enabled backend here.
 window.FEuchteCheckConfig = {
   apiBase: "https://feuchtecheck.at",
+  // Set to a same-origin script (e.g. "/api/besichtigung.php") to really deliver the phone request.
+  requestEndpoint: "",
+  sendRequest: function (phone, answers, result) {
+    var url = window.FEuchteCheckConfig.requestEndpoint;
+    if (!url) return Promise.resolve();
+    return fetch(url, { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ phone: phone, answers: answers, result: result }) })
+      .then(function (r) { if (!r.ok) throw new Error("send failed"); });
+  },
   // Fallback when the API is unreachable: simplified, indicative estimate computed in the browser.
   // This is NOT the original server logic; amounts differ from feuchtecheck.at.
   // Fallback when the request cannot be sent: accept a plausible phone number and show the confirmation.

@@ -78,7 +78,7 @@ for path,(data,mime) in downloads.items():
             text=text.replace(old_catch,'catch{try{const le=window.FEuchteCheckConfig.estimate(a);h(le.result),p(le.leadId),U("result",!0)}catch{x("Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.")}}finally{y(!1)}}},I=')
             old_send='catch{D("Senden fehlgeschlagen. Bitte versuchen Sie es erneut.")}finally{T(!1)}}};'
             assert text.count(old_send)==1
-            text=text.replace(old_send,'catch{window.FEuchteCheckConfig.validPhone(w)?S(!0):D("Bitte geben Sie eine gültige Telefonnummer ein.")}finally{T(!1)}}};')
+            text=text.replace(old_send,'catch{if(!window.FEuchteCheckConfig.validPhone(w))D("Bitte geben Sie eine gültige Telefonnummer ein.");else try{await window.FEuchteCheckConfig.sendRequest(w,a,u),S(!0)}catch{D("Senden fehlgeschlagen. Bitte versuchen Sie es erneut.")}}finally{T(!1)}}};')
             text=text.replace('fetch(`/api/', 'fetch(`${window.FEuchteCheckConfig.apiBase}/api/')
         data=text.encode()
     save(target,data)
