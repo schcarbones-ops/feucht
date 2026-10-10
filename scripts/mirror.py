@@ -73,6 +73,9 @@ for path,(data,mime) in downloads.items():
             text=text.replace('tH=u4(eH)','tH=u4(eH,{basename:"/feucht"})')
             text=text.replace('$f.firstElementChild?$k.hydrateRoot($f,H2):$k.createRoot($f).render(H2);','$k.createRoot($f).render(H2);')
             text=text.replace('fetch("/api/', 'fetch(window.FEuchteCheckConfig.apiBase+"/api/')
+            old_catch='catch{x("Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.")}finally{y(!1)}}},I='
+            assert text.count(old_catch)==1
+            text=text.replace(old_catch,'catch{try{const le=window.FEuchteCheckConfig.estimate(a);h(le.result),p(le.leadId),U("result",!0)}catch{x("Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.")}}finally{y(!1)}}},I=')
             text=text.replace('fetch(`/api/', 'fetch(`${window.FEuchteCheckConfig.apiBase}/api/')
         data=text.encode()
     save(target,data)
@@ -87,7 +90,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         text=text.replace('<head>','<head>\n    <meta name="robots" content="noindex,nofollow" />\n    <script src="/feucht/config.js"></script>\n    <style>h1,h2,main a,main p,main li{overflow-wrap:anywhere}</style>')
         text='\n'.join(line.rstrip() for line in text.splitlines())+'\n'
         save('/index.html' if route=='/' else route+'/index.html',text.encode())
-save('/config.js', b'// GitHub Pages cannot run the original GoDaddy API. Set a CORS-enabled backend here.\nwindow.FEuchteCheckConfig = { apiBase: "https://feuchtecheck.at" };\n')
+save('/config.js',(ROOT.parent/'scripts'/'config.template.js').read_bytes())
 save('/.nojekyll',b'')
 save('/404.html',(ROOT/'index.html').read_bytes())
 (ROOT.parent/'routes.json').write_text(json.dumps(routes,indent=2)+'\n')
