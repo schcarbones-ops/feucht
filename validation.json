@@ -296,17 +296,11 @@
     }
   ],
   "errors": [],
-  "missingResources": [
-    {
-      "status": 404,
-      "url": "http://127.0.0.1:8000/feucht/airo-assets/images/logo/horizontal"
-    }
-  ],
+  "missingResources": [],
   "checks": [
     "Desktop client navigation stays under /feucht",
     "Questionnaire reaches step 6 and requires email at width 1440; API submission not executed",
     "Mobile navigation works",
-    "Questionnaire reaches step 6 and requires email at width 390; API submission not executed",
-    "Privacy heading wrapping rechecked at 390px after targeted correction"
+    "Questionnaire reaches step 6 and requires email at width 390; API submission not executed"
   ]
 }

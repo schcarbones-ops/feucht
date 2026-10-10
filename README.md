@@ -7,11 +7,11 @@ Adresse de publication prévue : `https://schcarbones-ops.github.io/feucht/`.
 ## État réel
 
 - Pages téléchargées, routeur adapté au préfixe `/feucht`, navigation directe et rechargement pris en charge par des fichiers HTML par route.
-- Validation Chromium sur ordinateur et mobile ; résultats complets dans `validation.json`.
+- Validation Chromium réussie : 42 contrôles de pages (21 pages × 2 tailles), sans erreur JavaScript, ressource manquante ou débordement horizontal. Navigation et six étapes du questionnaire vérifiées ; résultats complets dans `validation.json`.
 - Tous les visuels sont récupérés, y compris le logo et le favicon. `missing-assets.json` est vide et le contrôle des fichiers réussit. Le workflow refuse toujours de publier si un futur rafraîchissement laisse des fichiers manquants.
 - Les routes `/api/leads`, `/api/leads/:id` et `/api/contact/besichtigung` appartiennent au serveur GoDaddy. Elles ne peuvent pas être exécutées par GitHub Pages. Le test OPTIONS sur le serveur d'origine ne fournit pas d'en-tête d'autorisation CORS pour le domaine GitHub. **Le calcul des résultats et l'envoi des demandes ne fonctionnent donc pas encore sur la copie.** Aucun résultat ni confirmation d'envoi n'est simulé.
 - `site/config.js` permet de définir une API compatible. Il faudra exporter le serveur Airo et l'héberger séparément, ou configurer l'API originale pour accepter cette origine. Son contrat et sa logique métier ne sont pas accessibles dans les fichiers publics.
-- L'accès direct de l'intégration aux réglages Pages répond HTTP 403. Le workflow tente l'activation avec son propre jeton GitHub Actions. Le dépôt reste privé ; sa visibilité ne sera pas changée implicitement. Consulter le résultat du workflow pour connaître l'état de publication.
+- La publication du 10 octobre 2026 a échoué à l’activation de Pages : `Resource not accessible by integration`, y compris avec le jeton GitHub Actions. Le propriétaire doit activer **Settings → Pages → GitHub Actions** avant de relancer le workflow. Exécution : https://github.com/schcarbones-ops/feucht/actions/runs/38081087631 . Le dépôt reste privé ; aucune modification de visibilité n’a été effectuée. Le site n’est pas encore publié.
 
 ## Développement et vérification
 
