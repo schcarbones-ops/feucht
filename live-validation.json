@@ -1,0 +1,107 @@
+{
+  "url": "https://schcarbones-ops.github.io/feucht/",
+  "pages": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/besichtigung",
+      "status": 200
+    },
+    {
+      "route": "/check",
+      "status": 200
+    },
+    {
+      "route": "/datenschutz",
+      "status": 200
+    },
+    {
+      "route": "/feuchte-wand-keller",
+      "status": 200
+    },
+    {
+      "route": "/horizontalsperre",
+      "status": 200
+    },
+    {
+      "route": "/impressum",
+      "status": 200
+    },
+    {
+      "route": "/keller-trockenlegen-wien",
+      "status": 200
+    },
+    {
+      "route": "/kellerabdichtung-wien",
+      "status": 200
+    },
+    {
+      "route": "/kellergeruch-muffig",
+      "status": 200
+    },
+    {
+      "route": "/kontakt",
+      "status": 200
+    },
+    {
+      "route": "/mauertrockenlegung-wien",
+      "status": 200
+    },
+    {
+      "route": "/ratgeber",
+      "status": 200
+    },
+    {
+      "route": "/salzausbluehungen-keller",
+      "status": 200
+    },
+    {
+      "route": "/schimmel-gesundheit-gebaeude",
+      "status": 200
+    },
+    {
+      "route": "/schimmel-im-badezimmer",
+      "status": 200
+    },
+    {
+      "route": "/schimmel-keller-wien",
+      "status": 200
+    },
+    {
+      "route": "/schimmel-versicherung-oesterreich",
+      "status": 200
+    },
+    {
+      "route": "/ueber-uns",
+      "status": 200
+    },
+    {
+      "route": "/wasser-am-kellerboden",
+      "status": 200
+    },
+    {
+      "route": "/wie-es-funktioniert",
+      "status": 200
+    }
+  ],
+  "browser": [
+    {
+      "width": 1440,
+      "home": true,
+      "images": true,
+      "navigation": true,
+      "questionnaireFirstStep": true
+    },
+    {
+      "width": 390,
+      "home": true,
+      "images": true,
+      "navigation": true,
+      "questionnaireFirstStep": true
+    }
+  ],
+  "errors": [],
+  "failedResources": []
+}

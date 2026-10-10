@@ -2,7 +2,7 @@
 
 Reprise des **21 pages publiques** de https://feuchtecheck.at/ avec les fichiers JavaScript, CSS, polices et images publiés par le site. Il s'agit d'une copie du site compilé, pas d'un export du projet source Airo ni de son serveur.
 
-Adresse de publication prévue : `https://schcarbones-ops.github.io/feucht/`.
+Site publié : `https://schcarbones-ops.github.io/feucht/`.
 
 ## État réel
 
@@ -11,7 +11,7 @@ Adresse de publication prévue : `https://schcarbones-ops.github.io/feucht/`.
 - Tous les visuels sont récupérés, y compris le logo et le favicon. `missing-assets.json` est vide et le contrôle des fichiers réussit. Le workflow refuse toujours de publier si un futur rafraîchissement laisse des fichiers manquants.
 - Les routes `/api/leads`, `/api/leads/:id` et `/api/contact/besichtigung` appartiennent au serveur GoDaddy. Elles ne peuvent pas être exécutées par GitHub Pages. Le test OPTIONS sur le serveur d'origine ne fournit pas d'en-tête d'autorisation CORS pour le domaine GitHub. **Le calcul des résultats et l'envoi des demandes ne fonctionnent donc pas encore sur la copie.** Aucun résultat ni confirmation d'envoi n'est simulé.
 - `site/config.js` permet de définir une API compatible. Il faudra exporter le serveur Airo et l'héberger séparément, ou configurer l'API originale pour accepter cette origine. Son contrat et sa logique métier ne sont pas accessibles dans les fichiers publics.
-- La publication du 10 octobre 2026 a échoué à l’activation de Pages : `Resource not accessible by integration`, y compris avec le jeton GitHub Actions. Le propriétaire doit activer **Settings → Pages → GitHub Actions** avant de relancer le workflow. Exécution : https://github.com/schcarbones-ops/feucht/actions/runs/38081087631 . Le dépôt reste privé ; aucune modification de visibilité n’a été effectuée. Le site n’est pas encore publié.
+- Le propriétaire a rendu le dépôt public et activé GitHub Pages. Publication réussie le 10 octobre 2026 : https://github.com/schcarbones-ops/feucht/actions/runs/38081571247 . Le site est accessible en HTTPS, sans abonnement activé par l’assistant.
 
 ## Développement et vérification
 
@@ -44,9 +44,9 @@ npm test
 
 ## Publication
 
-Après résolution des fichiers manquants et du serveur des formulaires :
+Pour publier de nouvelles modifications :
 
-1. Dans GitHub, ouvrir **Settings → Pages** et choisir **GitHub Actions**, avec les droits et le forfait nécessaires.
+1. Conserver **Settings → Pages → GitHub Actions**, déjà activé pour ce dépôt public.
 2. Dans **Actions**, exécuter **Publish static site to GitHub Pages**. Le workflow est manuel pour ne pas publier une copie incomplète automatiquement.
 3. Vérifier les pages, leurs rechargements, le questionnaire et les formulaires sur l'adresse publique réelle. Les contrôles locaux ne prouvent pas le bon fonctionnement d'un déploiement distant.
 
