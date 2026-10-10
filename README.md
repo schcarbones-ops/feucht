@@ -8,10 +8,10 @@ Adresse de publication prévue : `https://schcarbones-ops.github.io/feucht/`.
 
 - Pages téléchargées, routeur adapté au préfixe `/feucht`, navigation directe et rechargement pris en charge par des fichiers HTML par route.
 - Validation Chromium sur ordinateur et mobile ; résultats complets dans `validation.json`.
-- Logo, favicon et image de métadonnées manquants : les redirections vers `isteam.wsimg.com` et `img1.wsimg.com` sont bloquées par la configuration réseau actuelle. `missing-assets.json` contient les chemins manquants. Le script refuse de déclarer le téléchargement terminé et le workflow refuse de publier tant que des fichiers manquent.
+- Tous les visuels sont récupérés, y compris le logo et le favicon. `missing-assets.json` est vide et le contrôle des fichiers réussit. Le workflow refuse toujours de publier si un futur rafraîchissement laisse des fichiers manquants.
 - Les routes `/api/leads`, `/api/leads/:id` et `/api/contact/besichtigung` appartiennent au serveur GoDaddy. Elles ne peuvent pas être exécutées par GitHub Pages. Le test OPTIONS sur le serveur d'origine ne fournit pas d'en-tête d'autorisation CORS pour le domaine GitHub. **Le calcul des résultats et l'envoi des demandes ne fonctionnent donc pas encore sur la copie.** Aucun résultat ni confirmation d'envoi n'est simulé.
 - `site/config.js` permet de définir une API compatible. Il faudra exporter le serveur Airo et l'héberger séparément, ou configurer l'API originale pour accepter cette origine. Son contrat et sa logique métier ne sont pas accessibles dans les fichiers publics.
-- L'intégration GitHub répond HTTP 403 à la lecture et à la création de Pages. La mise en ligne n'est pas effectuée. Le dépôt est privé ; vérifier l'éligibilité du forfait à Pages pour les dépôts privés sans changer sa visibilité implicitement.
+- L'accès direct de l'intégration aux réglages Pages répond HTTP 403. Le workflow tente l'activation avec son propre jeton GitHub Actions. Le dépôt reste privé ; sa visibilité ne sera pas changée implicitement. Consulter le résultat du workflow pour connaître l'état de publication.
 
 ## Développement et vérification
 
