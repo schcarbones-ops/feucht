@@ -1,0 +1,312 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "heading": "Feuchter Keller?\nFeuchte Wand?",
+      "overflow": false
+    },
+    {
+      "route": "/besichtigung",
+      "width": 1440,
+      "status": 200,
+      "heading": "Kostenlose Vor-Ort-Besichtigung in Wien",
+      "overflow": false
+    },
+    {
+      "route": "/check",
+      "width": 1440,
+      "status": 200,
+      "heading": "Feuchter Keller?",
+      "overflow": false
+    },
+    {
+      "route": "/datenschutz",
+      "width": 1440,
+      "status": 200,
+      "heading": "Datenschutzerklärung",
+      "overflow": false
+    },
+    {
+      "route": "/feuchte-wand-keller",
+      "width": 1440,
+      "status": 200,
+      "heading": "Feuchte Wand im Keller",
+      "overflow": false
+    },
+    {
+      "route": "/horizontalsperre",
+      "width": 1440,
+      "status": 200,
+      "heading": "Horizontalsperre: Was sie ist, wie sie funktioniert und wann sie sinnvoll ist",
+      "overflow": false
+    },
+    {
+      "route": "/impressum",
+      "width": 1440,
+      "status": 200,
+      "heading": "Impressum",
+      "overflow": false
+    },
+    {
+      "route": "/keller-trockenlegen-wien",
+      "width": 1440,
+      "status": 200,
+      "heading": "Keller trockenlegen Wien",
+      "overflow": false
+    },
+    {
+      "route": "/kellerabdichtung-wien",
+      "width": 1440,
+      "status": 200,
+      "heading": "Kellerabdichtung Wien",
+      "overflow": false
+    },
+    {
+      "route": "/kellergeruch-muffig",
+      "width": 1440,
+      "status": 200,
+      "heading": "Muffiger Kellergeruch",
+      "overflow": false
+    },
+    {
+      "route": "/kontakt",
+      "width": 1440,
+      "status": 200,
+      "heading": "Kontaktieren Sie uns",
+      "overflow": false
+    },
+    {
+      "route": "/mauertrockenlegung-wien",
+      "width": 1440,
+      "status": 200,
+      "heading": "Mauertrockenlegung Wien",
+      "overflow": false
+    },
+    {
+      "route": "/ratgeber",
+      "width": 1440,
+      "status": 200,
+      "heading": "Häufig gestellte Fragen",
+      "overflow": false
+    },
+    {
+      "route": "/salzausbluehungen-keller",
+      "width": 1440,
+      "status": 200,
+      "heading": "Salzausblühungen im Keller: Ursachen, Bedeutung und Sanierung",
+      "overflow": false
+    },
+    {
+      "route": "/schimmel-gesundheit-gebaeude",
+      "width": 1440,
+      "status": 200,
+      "heading": "Schimmel und Feuchtigkeit: Mögliche Risiken für Gesundheit und Gebäude",
+      "overflow": false
+    },
+    {
+      "route": "/schimmel-im-badezimmer",
+      "width": 1440,
+      "status": 200,
+      "heading": "Schimmel im Badezimmer: Ursachen, Risiken und was wirklich hilft",
+      "overflow": false
+    },
+    {
+      "route": "/schimmel-keller-wien",
+      "width": 1440,
+      "status": 200,
+      "heading": "Schimmel im Keller",
+      "overflow": false
+    },
+    {
+      "route": "/schimmel-versicherung-oesterreich",
+      "width": 1440,
+      "status": 200,
+      "heading": "Schimmel und Versicherung in Österreich: Was ist gedeckt?",
+      "overflow": false
+    },
+    {
+      "route": "/ueber-uns",
+      "width": 1440,
+      "status": 200,
+      "heading": "Über FeuchteCheck",
+      "overflow": false
+    },
+    {
+      "route": "/wasser-am-kellerboden",
+      "width": 1440,
+      "status": 200,
+      "heading": "Wasser am Kellerboden",
+      "overflow": false
+    },
+    {
+      "route": "/wie-es-funktioniert",
+      "width": 1440,
+      "status": 200,
+      "heading": "So funktioniert der Feuchte-Check",
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "heading": "Feuchter Keller?\nFeuchte Wand?",
+      "overflow": false
+    },
+    {
+      "route": "/besichtigung",
+      "width": 390,
+      "status": 200,
+      "heading": "Kostenlose Vor-Ort-Besichtigung in Wien",
+      "overflow": false
+    },
+    {
+      "route": "/check",
+      "width": 390,
+      "status": 200,
+      "heading": "Feuchter Keller?",
+      "overflow": false
+    },
+    {
+      "route": "/datenschutz",
+      "width": 390,
+      "status": 200,
+      "heading": "Datenschutzerklärung",
+      "overflow": false
+    },
+    {
+      "route": "/feuchte-wand-keller",
+      "width": 390,
+      "status": 200,
+      "heading": "Feuchte Wand im Keller",
+      "overflow": false
+    },
+    {
+      "route": "/horizontalsperre",
+      "width": 390,
+      "status": 200,
+      "heading": "Horizontalsperre: Was sie ist, wie sie funktioniert und wann sie sinnvoll ist",
+      "overflow": false
+    },
+    {
+      "route": "/impressum",
+      "width": 390,
+      "status": 200,
+      "heading": "Impressum",
+      "overflow": false
+    },
+    {
+      "route": "/keller-trockenlegen-wien",
+      "width": 390,
+      "status": 200,
+      "heading": "Keller trockenlegen Wien",
+      "overflow": false
+    },
+    {
+      "route": "/kellerabdichtung-wien",
+      "width": 390,
+      "status": 200,
+      "heading": "Kellerabdichtung Wien",
+      "overflow": false
+    },
+    {
+      "route": "/kellergeruch-muffig",
+      "width": 390,
+      "status": 200,
+      "heading": "Muffiger Kellergeruch",
+      "overflow": false
+    },
+    {
+      "route": "/kontakt",
+      "width": 390,
+      "status": 200,
+      "heading": "Kontaktieren Sie uns",
+      "overflow": false
+    },
+    {
+      "route": "/mauertrockenlegung-wien",
+      "width": 390,
+      "status": 200,
+      "heading": "Mauertrockenlegung Wien",
+      "overflow": false
+    },
+    {
+      "route": "/ratgeber",
+      "width": 390,
+      "status": 200,
+      "heading": "Häufig gestellte Fragen",
+      "overflow": false
+    },
+    {
+      "route": "/salzausbluehungen-keller",
+      "width": 390,
+      "status": 200,
+      "heading": "Salzausblühungen im Keller: Ursachen, Bedeutung und Sanierung",
+      "overflow": false
+    },
+    {
+      "route": "/schimmel-gesundheit-gebaeude",
+      "width": 390,
+      "status": 200,
+      "heading": "Schimmel und Feuchtigkeit: Mögliche Risiken für Gesundheit und Gebäude",
+      "overflow": false
+    },
+    {
+      "route": "/schimmel-im-badezimmer",
+      "width": 390,
+      "status": 200,
+      "heading": "Schimmel im Badezimmer: Ursachen, Risiken und was wirklich hilft",
+      "overflow": false
+    },
+    {
+      "route": "/schimmel-keller-wien",
+      "width": 390,
+      "status": 200,
+      "heading": "Schimmel im Keller",
+      "overflow": false
+    },
+    {
+      "route": "/schimmel-versicherung-oesterreich",
+      "width": 390,
+      "status": 200,
+      "heading": "Schimmel und Versicherung in Österreich: Was ist gedeckt?",
+      "overflow": false
+    },
+    {
+      "route": "/ueber-uns",
+      "width": 390,
+      "status": 200,
+      "heading": "Über FeuchteCheck",
+      "overflow": false
+    },
+    {
+      "route": "/wasser-am-kellerboden",
+      "width": 390,
+      "status": 200,
+      "heading": "Wasser am Kellerboden",
+      "overflow": false
+    },
+    {
+      "route": "/wie-es-funktioniert",
+      "width": 390,
+      "status": 200,
+      "heading": "So funktioniert der Feuchte-Check",
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "missingResources": [
+    {
+      "status": 404,
+      "url": "http://127.0.0.1:8000/feucht/airo-assets/images/logo/horizontal"
+    }
+  ],
+  "checks": [
+    "Desktop client navigation stays under /feucht",
+    "Questionnaire reaches step 6 and requires email at width 1440; API submission not executed",
+    "Mobile navigation works",
+    "Questionnaire reaches step 6 and requires email at width 390; API submission not executed",
+    "Privacy heading wrapping rechecked at 390px after targeted correction"
+  ]
+}

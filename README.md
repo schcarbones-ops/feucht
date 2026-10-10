@@ -1,0 +1,53 @@
+# FeuchteCheck — copie pour GitHub Pages
+
+Reprise des **21 pages publiques** de https://feuchtecheck.at/ avec les fichiers JavaScript, CSS, polices et images publiés par le site. Il s'agit d'une copie du site compilé, pas d'un export du projet source Airo ni de son serveur.
+
+Adresse de publication prévue : `https://schcarbones-ops.github.io/feucht/`.
+
+## État réel
+
+- Pages téléchargées, routeur adapté au préfixe `/feucht`, navigation directe et rechargement pris en charge par des fichiers HTML par route.
+- Validation Chromium sur ordinateur et mobile ; résultats complets dans `validation.json`.
+- Logo, favicon et image de métadonnées manquants : les redirections vers `isteam.wsimg.com` et `img1.wsimg.com` sont bloquées par la configuration réseau actuelle. `missing-assets.json` contient les chemins manquants. Le script refuse de déclarer le téléchargement terminé et le workflow refuse de publier tant que des fichiers manquent.
+- Les routes `/api/leads`, `/api/leads/:id` et `/api/contact/besichtigung` appartiennent au serveur GoDaddy. Elles ne peuvent pas être exécutées par GitHub Pages. Le test OPTIONS sur le serveur d'origine ne fournit pas d'en-tête d'autorisation CORS pour le domaine GitHub. **Le calcul des résultats et l'envoi des demandes ne fonctionnent donc pas encore sur la copie.** Aucun résultat ni confirmation d'envoi n'est simulé.
+- `site/config.js` permet de définir une API compatible. Il faudra exporter le serveur Airo et l'héberger séparément, ou configurer l'API originale pour accepter cette origine. Son contrat et sa logique métier ne sont pas accessibles dans les fichiers publics.
+- L'intégration GitHub répond HTTP 403 à la lecture et à la création de Pages. La mise en ligne n'est pas effectuée. Le dépôt est privé ; vérifier l'éligibilité du forfait à Pages pour les dépôts privés sans changer sa visibilité implicitement.
+
+## Développement et vérification
+
+Prérequis : Python 3, Node.js, Chromium (`/usr/bin/chromium`, ou variable `CHROMIUM_PATH`).
+
+```sh
+cd /workspace/feucht
+npm ci --cache /tmp/feucht-npm-cache
+npm start
+```
+
+Dans un second terminal, dans le même dossier :
+
+```sh
+npm test
+npm run check:assets
+```
+
+Le serveur local reproduit le préfixe `/feucht/`. Les tests vérifient les pages en 1440 px et 390 px, les titres, le débordement horizontal, les erreurs JavaScript, les ressources manquantes, les menus et les six étapes du questionnaire jusqu'à la saisie de l'adresse e-mail. Ils n'envoient aucune demande réelle. Une ressource manquante fait échouer le test.
+
+Après application des autorisations réseau manquantes :
+
+```sh
+npm run refresh
+npm run check:assets
+npm test
+```
+
+`refresh` télécharge les fichiers publics avec vérification TLS et régénère `site/`. Le cache temporaire se trouve dans `/tmp/feucht-download-cache` ; le supprimer pour récupérer une nouvelle version distante. Les modifications de compatibilité sont dans `scripts/mirror.py`, pour rester reproductibles. Les scripts de mesure d'audience de production sont désactivés sur la copie et les pages sont marquées `noindex`.
+
+## Publication
+
+Après résolution des fichiers manquants et du serveur des formulaires :
+
+1. Dans GitHub, ouvrir **Settings → Pages** et choisir **GitHub Actions**, avec les droits et le forfait nécessaires.
+2. Dans **Actions**, exécuter **Publish static site to GitHub Pages**. Le workflow est manuel pour ne pas publier une copie incomplète automatiquement.
+3. Vérifier les pages, leurs rechargements, le questionnaire et les formulaires sur l'adresse publique réelle. Les contrôles locaux ne prouvent pas le bon fonctionnement d'un déploiement distant.
+
+Les avis légaux et coordonnées sont ceux du site d'origine. Les licences tierces présentes dans les bundles sont conservées.

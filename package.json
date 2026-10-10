@@ -1,0 +1,14 @@
+{
+  "name": "feuchtecheck-pages",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 scripts/serve.py",
+    "test": "node tests/smoke.cjs",
+    "check:assets": "python3 scripts/check_assets.py",
+    "refresh": "python3 scripts/mirror.py"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

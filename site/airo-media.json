@@ -1,0 +1,336 @@
+{
+  "logo/horizontal": {
+    "mediaType": "logo",
+    "currentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-transparent-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png",
+    "searchQuery": "A clean, modern wordmark logo for \"FeuchteCheck\" — a moisture diagnostic service",
+    "alternatives": [],
+    "solidUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-transparent-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-original-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png"
+    },
+    "mockupUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-transparent-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-transparent-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png"
+    },
+    "landscapeMockupUrlMap": {},
+    "logoSourceMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-transparent-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png": {
+        "sessionId": "83c6ad06-3350-4488-a4e3-dca7d48e1b5b",
+        "logoId": "b853ae3a-2cd0-45c4-9639-a3dc390ab3f0",
+        "groupId": "8a11f85d-d243-4a73-90c5-f00e22ad3ce5"
+      }
+    },
+    "productMockupsMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-transparent-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png": [
+        {
+          "type": "mug",
+          "label": "Mug",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-mockup-mug-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png"
+        },
+        {
+          "type": "card",
+          "label": "Business Card",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-mockup-card-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png"
+        },
+        {
+          "type": "tshirt",
+          "label": "T-Shirt",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-mockup-tshirt-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png"
+        },
+        {
+          "type": "box",
+          "label": "Packaging",
+          "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-mockup-box-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png"
+        }
+      ]
+    },
+    "productMockups": [
+      {
+        "type": "mug",
+        "label": "Mug",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-mockup-mug-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png"
+      },
+      {
+        "type": "card",
+        "label": "Business Card",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-mockup-card-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png"
+      },
+      {
+        "type": "tshirt",
+        "label": "T-Shirt",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-mockup-tshirt-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png"
+      },
+      {
+        "type": "box",
+        "label": "Packaging",
+        "url": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/83c6ad06-3350-4488-a4e3-dca7d48e1b5b/horizontal-mockup-box-b853ae3a-2cd0-45c4-9639-a3dc390ab3f0/logo-logo.png"
+      }
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-14T11:07:22.418Z",
+    "lastUpdated": "2026-09-14T11:07:54.444Z",
+    "logoGroupId": "8a11f85d-d243-4a73-90c5-f00e22ad3ce5"
+  },
+  "pages/home/mold-wall": {
+    "requestedSize": {
+      "width": 400,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "square",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/1150872448",
+    "searchQuery": "mold on basement wall black mold concrete",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2181466332",
+      "https://img1.wsimg.com/isteam/getty/1141396196"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-14T11:07:23.775Z",
+    "lastUpdated": "2026-09-14T11:07:23.775Z",
+    "gettyId": "1150872448",
+    "alternativeGettyIds": [
+      "2181466332",
+      "1141396196"
+    ]
+  },
+  "pages/home/salt-efflorescence": {
+    "requestedSize": {
+      "width": 400,
+      "height": 400,
+      "fit": "cover"
+    },
+    "orientations": "square",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2148033715",
+    "searchQuery": "salt efflorescence white stains brick wall basement",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/625881332",
+      "https://img1.wsimg.com/isteam/getty/2253960086"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-14T11:07:24.806Z",
+    "lastUpdated": "2026-09-14T11:07:24.806Z",
+    "gettyId": "2148033715",
+    "alternativeGettyIds": [
+      "625881332",
+      "2253960086"
+    ]
+  },
+  "pages/home/hero-basement": {
+    "requestedSize": {
+      "width": 800,
+      "height": 600,
+      "fit": "cover"
+    },
+    "orientations": "horizontal",
+    "graphicalStyles": "photography",
+    "minimumSize": "large",
+    "mediaType": "image",
+    "currentUrl": "https://img1.wsimg.com/isteam/getty/2267131752",
+    "searchQuery": "damp basement wall moisture water damage",
+    "alternatives": [
+      "https://img1.wsimg.com/isteam/getty/2276806645",
+      "https://img1.wsimg.com/isteam/getty/2251863521",
+      "https://img1.wsimg.com/isteam/getty/2197902240",
+      "https://img1.wsimg.com/isteam/getty/2263585636"
+    ],
+    "userModified": false,
+    "createdAt": "2026-09-14T11:07:25.805Z",
+    "lastUpdated": "2026-09-14T11:07:25.805Z",
+    "gettyId": "2267131752",
+    "alternativeGettyIds": [
+      "2276806645",
+      "2251863521",
+      "2197902240",
+      "2263585636"
+    ]
+  },
+  "logo/favicon": {
+    "mediaType": "logo",
+    "currentUrl": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/86b363ef-cfb6-4d53-9aa5-fc8c9c7dde90/favicon-transparent-a6768600-8ec7-45d4-ac80-b6750699bfa2/logo-logo.png",
+    "searchQuery": "favicon",
+    "alternatives": [],
+    "logoSourceMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/86b363ef-cfb6-4d53-9aa5-fc8c9c7dde90/favicon-transparent-a6768600-8ec7-45d4-ac80-b6750699bfa2/logo-logo.png": {
+        "sessionId": "86b363ef-cfb6-4d53-9aa5-fc8c9c7dde90",
+        "logoId": "a6768600-8ec7-45d4-ac80-b6750699bfa2",
+        "groupId": "8a11f85d-d243-4a73-90c5-f00e22ad3ce5"
+      }
+    },
+    "logoGroupId": "8a11f85d-d243-4a73-90c5-f00e22ad3ce5",
+    "solidUrlMap": {
+      "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/86b363ef-cfb6-4d53-9aa5-fc8c9c7dde90/favicon-transparent-a6768600-8ec7-45d4-ac80-b6750699bfa2/logo-logo.png": "https://isteam.wsimg.com/genai-assistant/logoagent/customer/0355114f-df8d-4c81-8bb3-607d07bea96d/session/86b363ef-cfb6-4d53-9aa5-fc8c9c7dde90/favicon-original-a6768600-8ec7-45d4-ac80-b6750699bfa2/logo-logo.png"
+    },
+    "userModified": false,
+    "createdAt": "2026-09-14T11:07:38.073Z",
+    "lastUpdated": "2026-09-14T11:07:54.533Z"
+  },
+  "pages/home/after-basement": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-home-after-basement-7d86bf0b.png",
+    "searchQuery": "empty garage interior with concrete floor",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-14T14:42:24.058Z",
+    "lastUpdated": "2026-09-14T14:42:24.058Z",
+    "uploadSources": {
+      "/airo-assets/uploads/pages-home-after-basement-7d86bf0b.png": "1y1fauqgsk_1789396930375_file_uNd6FlWMPG.png"
+    },
+    "uploadContentHash": "44a42edd3b7796753979c0919c0d667e38386cb4739336b2a6ddc576b000425c",
+    "caption": "empty garage interior with concrete floor"
+  },
+  "pages/home/before-basement": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-home-before-basement-c3fce54c.png",
+    "searchQuery": "abandoned basement with mold and decay",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-14T14:42:24.527Z",
+    "lastUpdated": "2026-09-14T14:42:24.527Z",
+    "uploadSources": {
+      "/airo-assets/uploads/pages-home-before-basement-c3fce54c.png": "1y1fauqgsk_1789396930369_file_a65VrPCLv5.png"
+    },
+    "uploadContentHash": "1d93cdb77d78ad9a9d40e02998533952f4031ef8b7b3efdeb975ad6c67fc8f79",
+    "caption": "abandoned basement with mold and decay"
+  },
+  "pages/home/step-1-check": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-home-step-1-check-e31e3d88.png",
+    "searchQuery": "water damage inspection checklist report",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-14T15:02:08.278Z",
+    "lastUpdated": "2026-09-14T15:02:08.278Z",
+    "uploadSources": {
+      "/airo-assets/uploads/pages-home-step-1-check-e31e3d88.png": "1y1fauqgsk_1789398110154_file_UjGb6oOjG7.png"
+    },
+    "uploadContentHash": "46e453c165000dc9774b12df220f1886d35f4325ae1c43823bcbdb4f02d08af4",
+    "caption": "water damage inspection checklist report"
+  },
+  "pages/home/step-2-report": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-home-step-2-report-715b2310.png",
+    "searchQuery": "water quality report approved document",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-14T15:02:08.697Z",
+    "lastUpdated": "2026-09-14T15:02:08.697Z",
+    "uploadSources": {
+      "/airo-assets/uploads/pages-home-step-2-report-715b2310.png": "1y1fauqgsk_1789398110155_file_POvTlDVMVX.png"
+    },
+    "uploadContentHash": "3b2e1bc56f97344dae955d3ca6175bffb9110ae0ef7cb1644c52b1ccde1596a0",
+    "caption": "water quality report approved document"
+  },
+  "pages/home/step-3-expert": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-home-step-3-expert-39851c70.png",
+    "searchQuery": "construction worker calling phone support",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-14T15:02:09.101Z",
+    "lastUpdated": "2026-09-14T15:02:09.101Z",
+    "uploadSources": {
+      "/airo-assets/uploads/pages-home-step-3-expert-39851c70.png": "1y1fauqgsk_1789398110158_file_oGd-6VKnNe.png"
+    },
+    "uploadContentHash": "612a37e1796dd9757bcaadb9469610458cbc5f149473bc880656d5a3144a62bf",
+    "caption": "construction worker calling phone support"
+  },
+  "footer/trust-ssl": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/footer-trust-ssl-1f662f7d.webp",
+    "searchQuery": "ssl certificate security badge seal",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-15T06:56:05.624Z",
+    "lastUpdated": "2026-09-15T06:56:05.624Z",
+    "uploadSources": {
+      "/airo-assets/uploads/footer-trust-ssl-1f662f7d.webp": "1y1fauqgsk_1789455351157_file_IDhcYLurfG.webp"
+    },
+    "uploadContentHash": "2c573c38efd96892e6377e04083ada371e4bd7abb6e1024d7aa65ed9d7bd586c",
+    "caption": "ssl certificate security badge seal"
+  },
+  "uploads/background-1y1fauqgsk-1789455901363-file-hpkftyz9zd": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/uploads-background-1y1fauqgsk-1789455901363-file-hpkftyz9zd-d35f5d0d.png",
+    "searchQuery": "",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-15T07:05:05.678Z",
+    "lastUpdated": "2026-09-15T07:05:05.678Z",
+    "uploadSources": {
+      "/airo-assets/uploads/uploads-background-1y1fauqgsk-1789455901363-file-hpkftyz9zd-d35f5d0d.png": "1y1fauqgsk_1789455901363_file_hPKFTYz9Zd.png"
+    },
+    "uploadContentHash": "c49439d03bb5cb5abc21e906a590b322cd269ad323e1454e5a75cb46e8c1f505"
+  },
+  "pages/wie-es-funktioniert/hero-bg": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-wie-es-funktioniert-hero-bg-d35f5d0d.png",
+    "searchQuery": "architect workspace with house model blueprints",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-15T07:05:11.954Z",
+    "lastUpdated": "2026-09-15T07:05:11.954Z",
+    "uploadSources": {
+      "/airo-assets/uploads/pages-wie-es-funktioniert-hero-bg-d35f5d0d.png": "1y1fauqgsk_1789455901363_file_hPKFTYz9Zd.png"
+    },
+    "uploadContentHash": "c49439d03bb5cb5abc21e906a590b322cd269ad323e1454e5a75cb46e8c1f505",
+    "caption": "architect workspace with house model blueprints"
+  },
+  "uploads/background-1y1fauqgsk-1789460417554-file-f51twsbalq": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/uploads-background-1y1fauqgsk-1789460417554-file-f51twsbalq-99dc4d83.png",
+    "searchQuery": "",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-15T08:20:23.491Z",
+    "lastUpdated": "2026-09-15T08:20:23.491Z",
+    "uploadSources": {
+      "/airo-assets/uploads/uploads-background-1y1fauqgsk-1789460417554-file-f51twsbalq-99dc4d83.png": "1y1fauqgsk_1789460417554_file_F51TwsbalQ.png"
+    },
+    "uploadContentHash": "ae88189f4c1e420e10d322db0eb06a793880d259c9909b94b563f1948657f8f6"
+  },
+  "pages/ueber-uns/hero-bg": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-ueber-uns-hero-bg-99dc4d83.png",
+    "searchQuery": "architect workspace with mountain view",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-15T08:20:28.781Z",
+    "lastUpdated": "2026-09-15T08:20:28.781Z",
+    "uploadSources": {
+      "/airo-assets/uploads/pages-ueber-uns-hero-bg-99dc4d83.png": "1y1fauqgsk_1789460417554_file_F51TwsbalQ.png"
+    },
+    "uploadContentHash": "ae88189f4c1e420e10d322db0eb06a793880d259c9909b94b563f1948657f8f6",
+    "caption": "architect workspace with mountain view"
+  },
+  "uploads/background-1y1fauqgsk-1789479597283-file-goez-vc4gj": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/uploads-background-1y1fauqgsk-1789479597283-file-goez-vc4gj-7d831f6b.webp",
+    "searchQuery": "",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-15T13:40:03.664Z",
+    "lastUpdated": "2026-09-15T13:40:03.664Z",
+    "uploadSources": {
+      "/airo-assets/uploads/uploads-background-1y1fauqgsk-1789479597283-file-goez-vc4gj-7d831f6b.webp": "1y1fauqgsk_1789479597283_file_GoeZ-vC4gj.webp"
+    },
+    "uploadContentHash": "5d3f3c292c18743f5d9e96cde002f208009adfd110136e6b1c16fbd6c5344bfa"
+  },
+  "pages/ratgeber/faq-bg": {
+    "mediaType": "image",
+    "currentUrl": "/airo-assets/uploads/pages-ratgeber-faq-bg-7d831f6b.webp",
+    "searchQuery": "stacked old books with weathered pages",
+    "alternatives": [],
+    "userModified": true,
+    "createdAt": "2026-09-15T13:40:09.776Z",
+    "lastUpdated": "2026-09-15T13:40:09.776Z",
+    "uploadSources": {
+      "/airo-assets/uploads/pages-ratgeber-faq-bg-7d831f6b.webp": "1y1fauqgsk_1789479597283_file_GoeZ-vC4gj.webp"
+    },
+    "uploadContentHash": "5d3f3c292c18743f5d9e96cde002f208009adfd110136e6b1c16fbd6c5344bfa",
+    "caption": "stacked old books with weathered pages"
+  }
+}
