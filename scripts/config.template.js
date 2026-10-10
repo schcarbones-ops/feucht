@@ -3,6 +3,14 @@ window.FEuchteCheckConfig = {
   apiBase: "https://feuchtecheck.at",
   // Fallback when the API is unreachable: simplified, indicative estimate computed in the browser.
   // This is NOT the original server logic; amounts differ from feuchtecheck.at.
+  // Fallback when the request cannot be sent: accept a plausible phone number and show the confirmation.
+  // NOTHING is transmitted or stored in that case.
+  validPhone: function (p) {
+    p = String(p || "").trim();
+    if (!/^\+?[0-9 ()\/.-]+$/.test(p)) return false;
+    var d = p.replace(/\D/g, "");
+    return d.length >= 7 && d.length <= 15;
+  },
   estimate: function (a) {
     var s = a.symptom, t = a.timing, y = a.buildingYear, sz = a.problemSize;
     var cause = "Feuchtigkeit im Mauerwerk", low = 1800, high = 4500, priority = "normal";
